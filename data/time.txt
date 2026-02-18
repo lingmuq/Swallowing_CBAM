@@ -1,0 +1,139 @@
+Pre
+bread       : 63.92 minutes
+cracker     : 25.62 minutes
+jelly       : 26.88 minutes
+pudding     : 28.78 minutes
+soda_water  : 30.85 minutes
+yogurt      : 29.66 minutes
+yokan       : 24.03 minutes
+total: 3.83 hours
+
+Pre+OCBE(AD)
+bread       : 72.18 minutes
+cracker     : 28.69 minutes
+jelly       : 29.78 minutes
+pudding     : 31.76 minutes
+soda_water  : 33.87 minutes
+yogurt      : 32.60 minutes
+yokan       : 26.91 minutes
+total: 4.26 hours
+
+Pre+OCBE+CBAM(Ours)
+bread       : 73.18 minutes
+cracker     : 28.90 minutes
+jelly       : 30.04 minutes
+pudding     : 32.00 minutes
+soda_water  : 34.26 minutes
+yogurt      : 32.99 minutes
+yokan       : 27.21 minutes
+total: 4.31 hours
+
+Pre+OCBE+CAM
+bread       : 72.87 minutes
+cracker     : 28.75 minutes
+jelly       : 30.01 minutes
+pudding     : 31.84 minutes
+soda_water  : 34.10 minutes
+yogurt      : 32.91 minutes
+yokan       : 27.22 minutes
+total: 4.29 hours
+
+Pre+OCBE+SAM
+bread       : 72.45 minutes
+cracker     : 28.68 minutes
+jelly       : 29.92 minutes
+pudding     : 31.79 minutes
+soda_water  : 34.03 minutes
+yogurt      : 32.86 minutes
+yokan       : 27.13 minutes
+total: 4.28 hours
+
+Encoder+CBAM
+bread       : 82.60 minutes
+cracker     : 32.25 minutes
+jelly       : 33.68 minutes
+pudding     : 35.44 minutes
+soda_water  : 37.70 minutes
+yogurt      : 36.51 minutes
+yokan       : 30.68 minutes
+total: 4.81 hours
+
+(Encoder & Decoder)+CBAM
+bread       : 99.83 minutes
+cracker     : 37.48 minutes
+jelly       : 38.81 minutes
+pudding     : 40.90 minutes
+soda_water  : 43.13 minutes
+yogurt      : 41.92 minutes
+yokan       : 35.85 minutes
+total: 5.63 hours
+
+Pre+OCBE+r_CBAM(SAM->CAM)
+bread       : 73.46 minutes
+cracker     : 29.02 minutes
+jelly       : 30.17 minutes
+pudding     : 32.26 minutes
+soda_water  : 34.33 minutes
+yogurt      : 33.31 minutes
+yokan       : 27.47 minutes
+total: 4.33 hours
+
+r=8
+bread       : 73.23 minutes
+cracker     : 29.50 minutes
+jelly       : 30.60 minutes
+pudding     : 32.30 minutes
+soda_water  : 34.38 minutes
+yogurt      : 33.22 minutes
+yokan       : 27.32 minutes
+total: 4.34 hours
+
+r=32
+bread       : 73.45 minutes
+cracker     : 28.90 minutes
+jelly       : 30.27 minutes
+pudding     : 32.08 minutes
+soda_water  : 34.28 minutes
+yogurt      : 33.13 minutes
+yokan       : 27.39 minutes
+total: 4.32 hours
+
+k=3
+bread       : 73.20 minutes
+cracker     : 28.87 minutes
+jelly       : 30.14 minutes
+pudding     : 32.10 minutes
+soda_water  : 34.11 minutes
+yogurt      : 32.89 minutes
+yokan       : 27.36 minutes
+total: 4.31 hours
+
+k=5
+bread       : 73.26 minutes
+cracker     : 28.84 minutes
+jelly       : 30.26 minutes
+pudding     : 32.04 minutes
+soda_water  : 34.27 minutes
+yogurt      : 33.11 minutes
+yokan       : 27.19 minutes
+total: 4.32 hours
+
+ResNet-50-2-bottleneck
+bread       : 59.61 minutes
+cracker     : 24.60 minutes
+jelly       : 25.84 minutes
+pudding     : 27.65 minutes
+soda_water  : 29.97 minutes
+yogurt      : 29.08 minutes
+yokan       : 23.18 minutes
+total: 3.67 hours
+
+WRN-101-2-bottleneck
+bread       : 108.75 minutes
+cracker     : 40.88 minutes
+jelly       : 42.15 minutes
+pudding     : 44.03 minutes
+soda_water  : 47.98 minutes
+yogurt      : 45.06 minutes
+yokan       : 39.31 minutes
+total: 6.14 hours
