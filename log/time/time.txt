@@ -1,0 +1,9 @@
+----- time -----
+bread       : 108.85 minutes
+cracker     : 40.87 minutes
+jelly       : 42.17 minutes
+pudding     : 44.16 minutes
+soda_water  : 46.29 minutes
+yogurt      : 45.06 minutes
+yokan       : 39.33 minutes
+total: 6.11 hours
