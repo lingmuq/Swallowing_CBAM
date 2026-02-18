@@ -100,5 +100,14 @@ python fig.py
 ## Citation
 If you find the work useful in your research，please cite our papar
 ```
-coming soon...
+@article{suzuki2026investigation
+  title={Investigation of Swallowing Function Assessment Using Reverse Knowledge Distillation with a Focus on Spatial Features},
+  author={Haruhito, Suzuki and Makoto, Sasaki and Hagihara, Yoshihiro and Hotta, Katsuya},
+  journal={},
+  volume= {},
+  number= {},
+  pages= {},
+  year={2026},
+  publisher={}
+}
 ```
