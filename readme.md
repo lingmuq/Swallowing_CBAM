@@ -1,6 +1,6 @@
 # Investigation of Swallowing Function Assessment Using Reverse Knowledge Distillation with a Focus on Spatial Features
 
-[[IPSJ](./paper/IPSJ.pdf)] [[予稿](./paper/B-2-3.pdf)] [[卒業論文](./paper/thesis.pdf)] [[IEICE](./paper/IEICE.pdf)]
+[[IPSJ](./paper/IPSJ.pdf)] [[予稿](./paper/preprint.pdf)] [[卒業論文](./paper/thesis.pdf)] [[IEICE](./paper/IEICE.pdf)]
 
 実装言語: Python
 
