@@ -4,7 +4,7 @@
 
 実装言語: Python
 
-![overview](./fig/overview.pdf)
+![overview](./fig/overview.png)
 
 ## Abstract
 In recent years, medical image processing using AI has attracted increasing attention owing to population aging and a shortage of physicians.
