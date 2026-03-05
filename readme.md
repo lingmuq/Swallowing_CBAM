@@ -80,7 +80,7 @@ python fig.py
 * `test.py` $\rightarrow$ 計算用関数群．
 * `utils.py` $\rightarrow$ ユーティリティ関数群．
 
-サイズ等の都合で空のディレクトリはなんとかしてください．
+サイズ等の都合で空になってるディレクトリはなんとかしてください．
 </details>
 
 ## Method
