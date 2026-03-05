@@ -1,6 +1,6 @@
-# Investigation of Swallowing Function Assessment Using Reverse Knowledge Distillation with a Focus on Spatial Features
+# Learning Noise-Robust One-Class Representations for Food Bolus Detection in Ultrasound Images
 
-[[IPSJ](./paper/IPSJ.pdf)] [[予稿](./paper/preprint.pdf)] [[卒業論文](./paper/thesis.pdf)] [[IEICE](./paper/IEICE.pdf)]
+[[IPSJ](./paper/IPSJ.pdf)] [[予稿](./paper/preprint.pdf)] [[卒業論文](./paper/thesis.pdf)] [[IEICE](./paper/IEICE.pdf)] [[IET](./paper/IET.pdf)]
 
 実装言語: Python
 
@@ -50,39 +50,37 @@ python eval.py
 ```
 python fig.py
 ```
+<details>
+<summary> Tips </summary>
 
-### Tips
-* `__pycache__` $\rightarrow$ キャッシュ．
 * `.idea` $\rightarrow$ プロジェクト設定．
+* `__pycache__` $\rightarrow$ キャッシュ．
 * `checkpoints` $\rightarrow$ モデルの重み．
 * `data` $\rightarrow$ 卒業論文で使用した評価値およびグラフ．
 * `eval` $\rightarrow$ 評価指標毎のグラフ．
+* `fig` $\rightarrow$ 提案手法の概要および定性評価の図．
 * `gao` $\rightarrow$ gao2025unsupervisedを自環境で実装した際のプログラム．
 * `img` $\rightarrow$ カテゴリ毎のGT，hmap，pred画像．
-* `img_cmp` $\rightarrow$ カテゴリ毎のGT-hmap-pred画像．．
-* `log/epoch` $\rightarrow$ 学習過程．
-* `log/graph` $\rightarrow$ 学習過程のグラフ．
-* `log/json` $\rightarrow$ 学習過程．
-* `log/time` $\rightarrow$ 計算時間．
+* `img_cmp` $\rightarrow$ カテゴリ毎のGT-hmap-pred画像．
+* `log` $\rightarrow$ 学習過程．
 * `others` $\rightarrow$ 比較実験，モデル構成検討の際に使用したプログラム．
+* `paper` $\rightarrow$ 論文．
 * `pre` $\rightarrow$ deng2022anomalyを自環境で実装した際のプログラム．
 * `swallowing` $\rightarrow$ 本実験で使用した嚥下超音波画像データセット．
-* `dataset_swallowing.py` $\rightarrow$ 嚥下超音波画像データセットの前処理．
+* `LICENSE` $\rightarrow$ ライセンス．
 * `dataset.py` $\rightarrow$ MVTec ADデータセットの前処理．
+* `dataset_swallowing.py` $\rightarrow$ 嚥下超音波画像データセットの前処理．
 * `de_resnet.py` $\rightarrow$ Decoderのバックボーンネットワーク．
 * `eval.py` $\rightarrow$ 推論．
 * `fig.py` $\rightarrow$ 可視化．
-* `LICENSE` $\rightarrow$ ライセンス．
 * `main_swallowing.py` $\rightarrow$ 学習．
-* `overview.png` $\rightarrow$ 概要図．
-* `paper.pdf` $\rightarrow$ 卒業論文．
-* `readme.md` $\rightarrow$ このreadme．
+* `readme.md` $\rightarrow$ README．
 * `requirements.txt` $\rightarrow$ 環境設定．
 * `resnet.py` $\rightarrow$ Encoder，OCBEモジュールのバックボーンネットワーク，およびCBAMの実装．
-* `results.png` $\rightarrow$ 定性的評価図．
 * `test.py` $\rightarrow$ 計算用関数群．
 * `utils.py` $\rightarrow$ ユーティリティ関数群．
 
+</details>
 
 ## Method
 卒論参照
@@ -100,9 +98,9 @@ python fig.py
 ## Citation
 If you find the work useful in your research，please cite our papar
 ```
-@article{suzuki2026investigation
-  title={Investigation of Swallowing Function Assessment Using Reverse Knowledge Distillation with a Focus on Spatial Features},
-  author={Haruhito, Suzuki and Makoto, Sasaki and Hagihara, Yoshihiro and Hotta, Katsuya},
+@article{suzuki202learning
+  title={Learning Noise-Robust One-Class Representations for Food Bolus Detection in Ultrasound Images},
+  author={Haruhito, Suzuki and Qibo, GAO and Hagihara, Yoshihiro and Makoto, Sasaki and Hotta, Katsuya},
   journal={},
   volume= {},
   number= {},
