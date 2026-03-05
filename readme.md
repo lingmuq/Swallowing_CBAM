@@ -80,10 +80,11 @@ python fig.py
 * `test.py` $\rightarrow$ 計算用関数群．
 * `utils.py` $\rightarrow$ ユーティリティ関数群．
 
+サイズ等の都合で空のディレクトリはなんとかしてください．
 </details>
 
 ## Method
-卒論参照
+卒論参照．
 
 
 ## Results
